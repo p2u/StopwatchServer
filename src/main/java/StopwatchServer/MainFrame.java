@@ -5,6 +5,11 @@
  */
 package StopwatchServer;
 
+import StopwatchServer.endpointserver.StopwatchProxyListener;
+import StopwatchServer.endpointserver.StopwatchProxy;
+import StopwatchServer.endpointserver.StopwatchLogs;
+import StopwatchServer.endpointserver.StopwatchEndpoint;
+import StopwatchServer.endpointserver.Stopwatch;
 import StopwatchServer.protocol.CustomStatement;
 import StopwatchServer.protocol.ResetStatement;
 import StopwatchServer.protocol.StartStatement;

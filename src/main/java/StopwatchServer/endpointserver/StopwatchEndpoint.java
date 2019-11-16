@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package StopwatchServer;
+package StopwatchServer.endpointserver;
 
 import StopwatchServer.decoder.CustomDecoder;
 import StopwatchServer.decoder.ResetDecoder;

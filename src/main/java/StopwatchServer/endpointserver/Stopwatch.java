@@ -3,14 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package StopwatchServer;
+package StopwatchServer.endpointserver;
 
 import StopwatchServer.protocol.Statement;
 import StopwatchServer.protocol.TimeStatement;
 import StopwatchServer.protocol.TimeoutStatement;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.websocket.Session;
 
 /**
