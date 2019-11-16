@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package StopwatchServer;
+package StopwatchServer.protocol;
 
 /**
  *
  * @author petr
  */
-public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        MainFrame.main(args);
-    }
+public interface Statement {
+    
+    @Override
+    public String toString();
     
 }

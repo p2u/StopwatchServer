@@ -9,13 +9,8 @@ package StopwatchServer;
  *
  * @author petr
  */
-public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        MainFrame.main(args);
-    }
+public interface StopwatchProxyListener {
+ 
+    public void update();
     
 }
